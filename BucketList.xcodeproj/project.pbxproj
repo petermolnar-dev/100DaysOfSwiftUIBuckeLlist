@@ -13,6 +13,7 @@
 		C7D8F0022824393E00094708 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7D8F0012824393E00094708 /* Preview Assets.xcassets */; };
 		C7D8F0092824600B00094708 /* StateViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D8F0082824600A00094708 /* StateViews.swift */; };
 		C7D8F0252826D5D700094708 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D8F0242826D5D700094708 /* MapView.swift */; };
+		C7D8F0272826DB3F00094708 /* FaceAndTouchIDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D8F0262826DB3F00094708 /* FaceAndTouchIDView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		C7D8F0012824393E00094708 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C7D8F0082824600A00094708 /* StateViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateViews.swift; sourceTree = "<group>"; };
 		C7D8F0242826D5D700094708 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		C7D8F0262826DB3F00094708 /* FaceAndTouchIDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceAndTouchIDView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				C7D8EFFA2824393D00094708 /* BucketListApp.swift */,
 				C7D8EFFC2824393D00094708 /* ContentView.swift */,
 				C7D8F0242826D5D700094708 /* MapView.swift */,
+				C7D8F0262826DB3F00094708 /* FaceAndTouchIDView.swift */,
 				C7D8F0082824600A00094708 /* StateViews.swift */,
 				C7D8EFFE2824393E00094708 /* Assets.xcassets */,
 				C7D8F0002824393E00094708 /* Preview Content */,
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7D8EFFD2824393D00094708 /* ContentView.swift in Sources */,
+				C7D8F0272826DB3F00094708 /* FaceAndTouchIDView.swift in Sources */,
 				C7D8F0252826D5D700094708 /* MapView.swift in Sources */,
 				C7D8EFFB2824393D00094708 /* BucketListApp.swift in Sources */,
 				C7D8F0092824600B00094708 /* StateViews.swift in Sources */,
@@ -278,6 +282,7 @@
 				DEVELOPMENT_TEAM = 3YBS3Y2WC7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "We need to unlock your data.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -307,6 +312,7 @@
 				DEVELOPMENT_TEAM = 3YBS3Y2WC7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "We need to unlock your data.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
