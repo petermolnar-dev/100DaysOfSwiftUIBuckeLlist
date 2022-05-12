@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C7868D852829839600FE549E /* UserLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7868D842829839600FE549E /* UserLocationView.swift */; };
 		C7D8EFFB2824393D00094708 /* BucketListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D8EFFA2824393D00094708 /* BucketListApp.swift */; };
 		C7D8EFFD2824393D00094708 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D8EFFC2824393D00094708 /* ContentView.swift */; };
 		C7D8EFFF2824393E00094708 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7D8EFFE2824393E00094708 /* Assets.xcassets */; };
@@ -14,9 +15,11 @@
 		C7D8F0092824600B00094708 /* StateViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D8F0082824600A00094708 /* StateViews.swift */; };
 		C7D8F0252826D5D700094708 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D8F0242826D5D700094708 /* MapView.swift */; };
 		C7D8F0272826DB3F00094708 /* FaceAndTouchIDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D8F0262826DB3F00094708 /* FaceAndTouchIDView.swift */; };
+		C7E8631B282D101200DCA64F /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E8631A282D101100DCA64F /* Location.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C7868D842829839600FE549E /* UserLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocationView.swift; sourceTree = "<group>"; };
 		C7D8EFF72824393D00094708 /* BucketList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BucketList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7D8EFFA2824393D00094708 /* BucketListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListApp.swift; sourceTree = "<group>"; };
 		C7D8EFFC2824393D00094708 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -25,6 +28,7 @@
 		C7D8F0082824600A00094708 /* StateViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateViews.swift; sourceTree = "<group>"; };
 		C7D8F0242826D5D700094708 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		C7D8F0262826DB3F00094708 /* FaceAndTouchIDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceAndTouchIDView.swift; sourceTree = "<group>"; };
+		C7E8631A282D101100DCA64F /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +64,12 @@
 				C7D8EFFA2824393D00094708 /* BucketListApp.swift */,
 				C7D8EFFC2824393D00094708 /* ContentView.swift */,
 				C7D8F0242826D5D700094708 /* MapView.swift */,
+				C7868D842829839600FE549E /* UserLocationView.swift */,
 				C7D8F0262826DB3F00094708 /* FaceAndTouchIDView.swift */,
 				C7D8F0082824600A00094708 /* StateViews.swift */,
 				C7D8EFFE2824393E00094708 /* Assets.xcassets */,
 				C7D8F0002824393E00094708 /* Preview Content */,
+				C7E8631A282D101100DCA64F /* Location.swift */,
 			);
 			path = BucketList;
 			sourceTree = "<group>";
@@ -150,7 +156,9 @@
 				C7D8F0272826DB3F00094708 /* FaceAndTouchIDView.swift in Sources */,
 				C7D8F0252826D5D700094708 /* MapView.swift in Sources */,
 				C7D8EFFB2824393D00094708 /* BucketListApp.swift in Sources */,
+				C7868D852829839600FE549E /* UserLocationView.swift in Sources */,
 				C7D8F0092824600B00094708 /* StateViews.swift in Sources */,
+				C7E8631B282D101200DCA64F /* Location.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,7 +215,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -261,7 +269,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
