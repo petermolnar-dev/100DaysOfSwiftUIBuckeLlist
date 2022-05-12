@@ -16,6 +16,7 @@
 		C7D8F0252826D5D700094708 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D8F0242826D5D700094708 /* MapView.swift */; };
 		C7D8F0272826DB3F00094708 /* FaceAndTouchIDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D8F0262826DB3F00094708 /* FaceAndTouchIDView.swift */; };
 		C7E8631B282D101200DCA64F /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E8631A282D101100DCA64F /* Location.swift */; };
+		C7E8631D282D579100DCA64F /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E8631C282D579100DCA64F /* EditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		C7D8F0242826D5D700094708 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		C7D8F0262826DB3F00094708 /* FaceAndTouchIDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceAndTouchIDView.swift; sourceTree = "<group>"; };
 		C7E8631A282D101100DCA64F /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		C7E8631C282D579100DCA64F /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				C7D8EFFC2824393D00094708 /* ContentView.swift */,
 				C7D8F0242826D5D700094708 /* MapView.swift */,
 				C7868D842829839600FE549E /* UserLocationView.swift */,
+				C7E8631C282D579100DCA64F /* EditView.swift */,
 				C7D8F0262826DB3F00094708 /* FaceAndTouchIDView.swift */,
 				C7D8F0082824600A00094708 /* StateViews.swift */,
 				C7D8EFFE2824393E00094708 /* Assets.xcassets */,
@@ -154,6 +157,7 @@
 			files = (
 				C7D8EFFD2824393D00094708 /* ContentView.swift in Sources */,
 				C7D8F0272826DB3F00094708 /* FaceAndTouchIDView.swift in Sources */,
+				C7E8631D282D579100DCA64F /* EditView.swift in Sources */,
 				C7D8F0252826D5D700094708 /* MapView.swift in Sources */,
 				C7D8EFFB2824393D00094708 /* BucketListApp.swift in Sources */,
 				C7868D852829839600FE549E /* UserLocationView.swift in Sources */,
