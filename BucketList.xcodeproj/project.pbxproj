@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C7868D852829839600FE549E /* UserLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7868D842829839600FE549E /* UserLocationView.swift */; };
+		C7AF7B0728317A2300BB16ED /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AF7B0628317A2300BB16ED /* Result.swift */; };
 		C7D8EFFB2824393D00094708 /* BucketListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D8EFFA2824393D00094708 /* BucketListApp.swift */; };
 		C7D8EFFD2824393D00094708 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D8EFFC2824393D00094708 /* ContentView.swift */; };
 		C7D8EFFF2824393E00094708 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7D8EFFE2824393E00094708 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		C7868D842829839600FE549E /* UserLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocationView.swift; sourceTree = "<group>"; };
+		C7AF7B0628317A2300BB16ED /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		C7D8EFF72824393D00094708 /* BucketList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BucketList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7D8EFFA2824393D00094708 /* BucketListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListApp.swift; sourceTree = "<group>"; };
 		C7D8EFFC2824393D00094708 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				C7D8EFFC2824393D00094708 /* ContentView.swift */,
 				C7D8F0242826D5D700094708 /* MapView.swift */,
 				C7868D842829839600FE549E /* UserLocationView.swift */,
+				C7AF7B0628317A2300BB16ED /* Result.swift */,
 				C7E8631C282D579100DCA64F /* EditView.swift */,
 				C7D8F0262826DB3F00094708 /* FaceAndTouchIDView.swift */,
 				C7D8F0082824600A00094708 /* StateViews.swift */,
@@ -155,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7AF7B0728317A2300BB16ED /* Result.swift in Sources */,
 				C7D8EFFD2824393D00094708 /* ContentView.swift in Sources */,
 				C7D8F0272826DB3F00094708 /* FaceAndTouchIDView.swift in Sources */,
 				C7E8631D282D579100DCA64F /* EditView.swift in Sources */,
