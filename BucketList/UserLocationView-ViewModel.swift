@@ -17,6 +17,9 @@ extension UserLocationView {
         @Published var selectedPlace: Location?
         
         @Published var isUnlocked = false
+        @Published var showBiometricsAlert = false
+        var biometricsErrorString: String = ""
+        
         
         let savePath = FileManager.documentsDirectory.appendingPathComponent("SavedPlaces")
         
@@ -63,13 +66,16 @@ extension UserLocationView {
                 let reason = "Please authenticate yourself to unlock the places"
                 
                 context.evaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, localizedReason: reason) { success, authenticationError in
+                    self.biometricsErrorString = authenticationError?.localizedDescription ?? ""
                     
                     if success {
                         Task { @MainActor in
                             self.isUnlocked = true
                         }
                     } else {
-                        // Error
+                        Task { @MainActor in
+                            self.showBiometricsAlert = true
+                        }
                     }
                 }
             } else {

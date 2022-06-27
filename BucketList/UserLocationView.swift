@@ -72,6 +72,9 @@ struct UserLocationView: View {
                 viewModel.update(location: $0)
             }
         }
+        .alert("An Error occurred while handling the biometrics: \(viewModel.biometricsErrorString)", isPresented: $viewModel.showBiometricsAlert) {
+            Button("OK", role: .cancel) { }
+        }
     }
 }
 
