@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C77A0E832885D56C007ACF86 /* Editview-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77A0E822885D56C007ACF86 /* Editview-ViewModel.swift */; };
 		C7868D852829839600FE549E /* UserLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7868D842829839600FE549E /* UserLocationView.swift */; };
 		C7AF7B0728317A2300BB16ED /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AF7B0628317A2300BB16ED /* Result.swift */; };
 		C7D8EFFB2824393D00094708 /* BucketListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D8EFFA2824393D00094708 /* BucketListApp.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C77A0E822885D56C007ACF86 /* Editview-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Editview-ViewModel.swift"; sourceTree = "<group>"; };
 		C7868D842829839600FE549E /* UserLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocationView.swift; sourceTree = "<group>"; };
 		C7AF7B0628317A2300BB16ED /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		C7D8EFF72824393D00094708 /* BucketList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BucketList.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,6 +84,7 @@
 				C7D8F0002824393E00094708 /* Preview Content */,
 				C7E8631A282D101100DCA64F /* Location.swift */,
 				C7F8FA0E28357179001B2993 /* FileManager-DocumentsDirectory.swift */,
+				C77A0E822885D56C007ACF86 /* Editview-ViewModel.swift */,
 			);
 			path = BucketList;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7AF7B0728317A2300BB16ED /* Result.swift in Sources */,
+				C77A0E832885D56C007ACF86 /* Editview-ViewModel.swift in Sources */,
 				C7F8FA0F28357179001B2993 /* FileManager-DocumentsDirectory.swift in Sources */,
 				C7D8EFFD2824393D00094708 /* ContentView.swift in Sources */,
 				C7D8F0272826DB3F00094708 /* FaceAndTouchIDView.swift in Sources */,
