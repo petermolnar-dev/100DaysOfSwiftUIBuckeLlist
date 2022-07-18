@@ -42,15 +42,19 @@ struct EditView: View {
                         Text("Please try again later.")
                     case .loaded:
                         ForEach(viewModel.pages, id: \.pageid) { page in
+                            HStack {
                             Text(page.title)
                                 .font(.headline)
                             + Text(": ") +
                             Text(page.description)
                                 .italic()
+                            }
+                            .onTapGesture {
+                                viewModel.name = page.title
+                                viewModel.description = page.description
+                            }
                         }
-                        .onTapGesture {
-                            <#code#>
-                        }
+                       
                     }
                 }
             }
